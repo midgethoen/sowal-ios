@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70C662E716CEA2CB00AA542F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C662E616CEA2CB00AA542F /* UIKit.framework */; };
+		70C662E916CEA2CB00AA542F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C662E816CEA2CB00AA542F /* Foundation.framework */; };
+		70C662EB16CEA2CB00AA542F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C662EA16CEA2CB00AA542F /* CoreGraphics.framework */; };
+		70C662F116CEA2CB00AA542F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70C662EF16CEA2CB00AA542F /* InfoPlist.strings */; };
+		70C662F316CEA2CB00AA542F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C662F216CEA2CB00AA542F /* main.m */; };
+		70C662F716CEA2CB00AA542F /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C662F616CEA2CB00AA542F /* SWAppDelegate.m */; };
+		70C662F916CEA2CB00AA542F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C662F816CEA2CB00AA542F /* Default.png */; };
+		70C662FB16CEA2CB00AA542F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C662FA16CEA2CB00AA542F /* Default@2x.png */; };
+		70C662FD16CEA2CB00AA542F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C662FC16CEA2CB00AA542F /* Default-568h@2x.png */; };
+		70C6630016CEA2CB00AA542F /* SWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C662FF16CEA2CB00AA542F /* SWMasterViewController.m */; };
+		70C6630316CEA2CB00AA542F /* SWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6630216CEA2CB00AA542F /* SWDetailViewController.m */; };
+		70C6630616CEA2CB00AA542F /* SWMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6630416CEA2CB00AA542F /* SWMasterViewController.xib */; };
+		70C6630916CEA2CB00AA542F /* SWDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6630716CEA2CB00AA542F /* SWDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70C662E316CEA2CB00AA542F /* sowal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sowal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C662E616CEA2CB00AA542F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70C662E816CEA2CB00AA542F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70C662EA16CEA2CB00AA542F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70C662EE16CEA2CB00AA542F /* sowal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sowal-Info.plist"; sourceTree = "<group>"; };
+		70C662F016CEA2CB00AA542F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70C662F216CEA2CB00AA542F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70C662F416CEA2CB00AA542F /* sowal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sowal-Prefix.pch"; sourceTree = "<group>"; };
+		70C662F516CEA2CB00AA542F /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		70C662F616CEA2CB00AA542F /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		70C662F816CEA2CB00AA542F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		70C662FA16CEA2CB00AA542F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		70C662FC16CEA2CB00AA542F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		70C662FE16CEA2CB00AA542F /* SWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMasterViewController.h; sourceTree = "<group>"; };
+		70C662FF16CEA2CB00AA542F /* SWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMasterViewController.m; sourceTree = "<group>"; };
+		70C6630116CEA2CB00AA542F /* SWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDetailViewController.h; sourceTree = "<group>"; };
+		70C6630216CEA2CB00AA542F /* SWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDetailViewController.m; sourceTree = "<group>"; };
+		70C6630516CEA2CB00AA542F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SWMasterViewController.xib; sourceTree = "<group>"; };
+		70C6630816CEA2CB00AA542F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SWDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C662E016CEA2CB00AA542F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C662E716CEA2CB00AA542F /* UIKit.framework in Frameworks */,
+				70C662E916CEA2CB00AA542F /* Foundation.framework in Frameworks */,
+				70C662EB16CEA2CB00AA542F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70C662DA16CEA2CB00AA542F = {
+			isa = PBXGroup;
+			children = (
+				70C662EC16CEA2CB00AA542F /* sowal */,
+				70C662E516CEA2CB00AA542F /* Frameworks */,
+				70C662E416CEA2CB00AA542F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70C662E416CEA2CB00AA542F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70C662E316CEA2CB00AA542F /* sowal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C662E516CEA2CB00AA542F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C662E616CEA2CB00AA542F /* UIKit.framework */,
+				70C662E816CEA2CB00AA542F /* Foundation.framework */,
+				70C662EA16CEA2CB00AA542F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C662EC16CEA2CB00AA542F /* sowal */ = {
+			isa = PBXGroup;
+			children = (
+				70C662F516CEA2CB00AA542F /* SWAppDelegate.h */,
+				70C662F616CEA2CB00AA542F /* SWAppDelegate.m */,
+				70C662FE16CEA2CB00AA542F /* SWMasterViewController.h */,
+				70C662FF16CEA2CB00AA542F /* SWMasterViewController.m */,
+				70C6630116CEA2CB00AA542F /* SWDetailViewController.h */,
+				70C6630216CEA2CB00AA542F /* SWDetailViewController.m */,
+				70C6630416CEA2CB00AA542F /* SWMasterViewController.xib */,
+				70C6630716CEA2CB00AA542F /* SWDetailViewController.xib */,
+				70C662ED16CEA2CB00AA542F /* Supporting Files */,
+			);
+			path = sowal;
+			sourceTree = "<group>";
+		};
+		70C662ED16CEA2CB00AA542F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C662EE16CEA2CB00AA542F /* sowal-Info.plist */,
+				70C662EF16CEA2CB00AA542F /* InfoPlist.strings */,
+				70C662F216CEA2CB00AA542F /* main.m */,
+				70C662F416CEA2CB00AA542F /* sowal-Prefix.pch */,
+				70C662F816CEA2CB00AA542F /* Default.png */,
+				70C662FA16CEA2CB00AA542F /* Default@2x.png */,
+				70C662FC16CEA2CB00AA542F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70C662E216CEA2CB00AA542F /* sowal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C6630C16CEA2CB00AA542F /* Build configuration list for PBXNativeTarget "sowal" */;
+			buildPhases = (
+				70C662DF16CEA2CB00AA542F /* Sources */,
+				70C662E016CEA2CB00AA542F /* Frameworks */,
+				70C662E116CEA2CB00AA542F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sowal;
+			productName = sowal;
+			productReference = 70C662E316CEA2CB00AA542F /* sowal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70C662DB16CEA2CB00AA542F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Midge 't Hoen";
+			};
+			buildConfigurationList = 70C662DE16CEA2CB00AA542F /* Build configuration list for PBXProject "sowal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70C662DA16CEA2CB00AA542F;
+			productRefGroup = 70C662E416CEA2CB00AA542F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70C662E216CEA2CB00AA542F /* sowal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70C662E116CEA2CB00AA542F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C662F116CEA2CB00AA542F /* InfoPlist.strings in Resources */,
+				70C662F916CEA2CB00AA542F /* Default.png in Resources */,
+				70C662FB16CEA2CB00AA542F /* Default@2x.png in Resources */,
+				70C662FD16CEA2CB00AA542F /* Default-568h@2x.png in Resources */,
+				70C6630616CEA2CB00AA542F /* SWMasterViewController.xib in Resources */,
+				70C6630916CEA2CB00AA542F /* SWDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70C662DF16CEA2CB00AA542F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C662F316CEA2CB00AA542F /* main.m in Sources */,
+				70C662F716CEA2CB00AA542F /* SWAppDelegate.m in Sources */,
+				70C6630016CEA2CB00AA542F /* SWMasterViewController.m in Sources */,
+				70C6630316CEA2CB00AA542F /* SWDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70C662EF16CEA2CB00AA542F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C662F016CEA2CB00AA542F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70C6630416CEA2CB00AA542F /* SWMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C6630516CEA2CB00AA542F /* en */,
+			);
+			name = SWMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		70C6630716CEA2CB00AA542F /* SWDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C6630816CEA2CB00AA542F /* en */,
+			);
+			name = SWDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70C6630A16CEA2CB00AA542F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		70C6630B16CEA2CB00AA542F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70C6630D16CEA2CB00AA542F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sowal/sowal-Prefix.pch";
+				INFOPLIST_FILE = "sowal/sowal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70C6630E16CEA2CB00AA542F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sowal/sowal-Prefix.pch";
+				INFOPLIST_FILE = "sowal/sowal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70C662DE16CEA2CB00AA542F /* Build configuration list for PBXProject "sowal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C6630A16CEA2CB00AA542F /* Debug */,
+				70C6630B16CEA2CB00AA542F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C6630C16CEA2CB00AA542F /* Build configuration list for PBXNativeTarget "sowal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C6630D16CEA2CB00AA542F /* Debug */,
+				70C6630E16CEA2CB00AA542F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70C662DB16CEA2CB00AA542F /* Project object */;
+}
