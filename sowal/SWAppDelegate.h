@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface SWAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UISplitViewController *splitViewController;
+//@property (strong, nonatomic) UISplitViewController *splitViewController;
+@property (strong, nonatomic) UINavigationController *mainViewController;
+//@property (strong, nonatomic) FBSession *session;
+
 
 @end

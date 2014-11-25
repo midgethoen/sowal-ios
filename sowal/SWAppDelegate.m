@@ -12,6 +12,8 @@
 
 #import "SWDetailViewController.h"
 
+#import "SWMainViewController.h"
+
 @implementation SWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,21 +21,20 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
-    SWMasterViewController *masterViewController = [[SWMasterViewController alloc] initWithNibName:@"SWMasterViewController" bundle:nil];
-    UINavigationController *masterNavigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
-
-    SWDetailViewController *detailViewController = [[SWDetailViewController alloc] initWithNibName:@"SWDetailViewController" bundle:nil];
-    UINavigationController *detailNavigationController = [[UINavigationController alloc] initWithRootViewController:detailViewController];
-
-    masterViewController.detailViewController = detailViewController;
-
-    self.splitViewController = [[UISplitViewController alloc] init];
-    self.splitViewController.delegate = detailViewController;
-    self.splitViewController.viewControllers = @[masterNavigationController, detailNavigationController];
-    self.window.rootViewController = self.splitViewController;
+    self.mainViewController = [[UINavigationController alloc] initWithRootViewController:[[SWMainViewController alloc] initWithNibName:@"SWMainViewController" bundle:nil]];
+    self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    // attempt to extract a token from the url
+    return [FBSession.activeSession handleOpenURL:url];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -55,11 +56,14 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSession.activeSession handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [FBSession.activeSession close];
 }
+
 
 @end

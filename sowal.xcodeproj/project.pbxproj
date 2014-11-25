@@ -16,10 +16,30 @@
 		70C662F916CEA2CB00AA542F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C662F816CEA2CB00AA542F /* Default.png */; };
 		70C662FB16CEA2CB00AA542F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C662FA16CEA2CB00AA542F /* Default@2x.png */; };
 		70C662FD16CEA2CB00AA542F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C662FC16CEA2CB00AA542F /* Default-568h@2x.png */; };
-		70C6630016CEA2CB00AA542F /* SWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C662FF16CEA2CB00AA542F /* SWMasterViewController.m */; };
-		70C6630316CEA2CB00AA542F /* SWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6630216CEA2CB00AA542F /* SWDetailViewController.m */; };
-		70C6630616CEA2CB00AA542F /* SWMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6630416CEA2CB00AA542F /* SWMasterViewController.xib */; };
-		70C6630916CEA2CB00AA542F /* SWDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6630716CEA2CB00AA542F /* SWDetailViewController.xib */; };
+		70C6631816CEA3E700AA542F /* SWSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6631716CEA3E700AA542F /* SWSourceManager.m */; };
+		70C6631B16CEA69000AA542F /* SWSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6631A16CEA68F00AA542F /* SWSource.m */; };
+		70C6631E16CEA6C400AA542F /* FacebookSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6631D16CEA6C400AA542F /* FacebookSource.m */; };
+		70C6632416CEA70100AA542F /* SWContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6632316CEA70100AA542F /* SWContent.m */; };
+		70C6632816CEA86800AA542F /* SWSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6632616CEA86800AA542F /* SWSourceViewController.m */; };
+		70C6632916CEA86800AA542F /* SWSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6632716CEA86800AA542F /* SWSourceViewController.xib */; };
+		70C6632D16CEABDC00AA542F /* SWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6632B16CEABDB00AA542F /* SWMainViewController.m */; };
+		70C6632E16CEABDC00AA542F /* SWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6632C16CEABDB00AA542F /* SWMainViewController.xib */; };
+		70C6633016CEB3D100AA542F /* SWSourceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6632F16CEB3D100AA542F /* SWSourceTableViewCell.xib */; };
+		70C6633216CEB4BB00AA542F /* f_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C6633116CEB4BB00AA542F /* f_logo.png */; };
+		70C6633516CEB6F200AA542F /* SWSourceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6633416CEB6F200AA542F /* SWSourceTableViewCell.m */; };
+		70C6633816CF791C00AA542F /* SWSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6633716CF791B00AA542F /* SWSettingsViewController.m */; };
+		70C6633A16CF7FAA00AA542F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6633916CF7FAA00AA542F /* FacebookSDK.framework */; };
+		70C6634016CF9A5C00AA542F /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70C6633F16CF9A5C00AA542F /* FacebookSDKResources.bundle */; };
+		70C6634416CF9ADA00AA542F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6634116CF9ADA00AA542F /* Accounts.framework */; };
+		70C6634516CF9ADA00AA542F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6634216CF9ADA00AA542F /* AdSupport.framework */; };
+		70C6634616CF9ADA00AA542F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6634316CF9ADA00AA542F /* Social.framework */; };
+		70C6634816CFA83700AA542F /* t_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C6634716CFA83700AA542F /* t_logo.png */; };
+		70C6634C16CFA86D00AA542F /* TwitterSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6634B16CFA86D00AA542F /* TwitterSource.m */; };
+		70C6634F16CFC25D00AA542F /* SWSlideshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6634E16CFC25D00AA542F /* SWSlideshowViewController.m */; };
+		70C6635116CFC4BB00AA542F /* SWSegmentedControlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6635016CFC4BB00AA542F /* SWSegmentedControlCell.xib */; };
+		70C6635616CFCDDA00AA542F /* SWContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6635516CFCDDA00AA542F /* SWContentCollectionViewCell.m */; };
+		70C6635816CFCDFB00AA542F /* SWContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C6635716CFCDFB00AA542F /* SWContentCollectionViewCell.xib */; };
+		70C6635B16CFD2EC00AA542F /* SWFBTaggedContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6635A16CFD2EC00AA542F /* SWFBTaggedContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +57,43 @@
 		70C662FA16CEA2CB00AA542F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		70C662FC16CEA2CB00AA542F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		70C662FE16CEA2CB00AA542F /* SWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMasterViewController.h; sourceTree = "<group>"; };
-		70C662FF16CEA2CB00AA542F /* SWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMasterViewController.m; sourceTree = "<group>"; };
 		70C6630116CEA2CB00AA542F /* SWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDetailViewController.h; sourceTree = "<group>"; };
-		70C6630216CEA2CB00AA542F /* SWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDetailViewController.m; sourceTree = "<group>"; };
-		70C6630516CEA2CB00AA542F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SWMasterViewController.xib; sourceTree = "<group>"; };
-		70C6630816CEA2CB00AA542F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SWDetailViewController.xib; sourceTree = "<group>"; };
+		70C6631616CEA3E700AA542F /* SWSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSourceManager.h; sourceTree = "<group>"; };
+		70C6631716CEA3E700AA542F /* SWSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSourceManager.m; sourceTree = "<group>"; };
+		70C6631916CEA68F00AA542F /* SWSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSource.h; sourceTree = "<group>"; };
+		70C6631A16CEA68F00AA542F /* SWSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSource.m; sourceTree = "<group>"; };
+		70C6631C16CEA6C400AA542F /* FacebookSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSource.h; sourceTree = "<group>"; };
+		70C6631D16CEA6C400AA542F /* FacebookSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookSource.m; sourceTree = "<group>"; };
+		70C6632216CEA70100AA542F /* SWContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWContent.h; sourceTree = "<group>"; };
+		70C6632316CEA70100AA542F /* SWContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWContent.m; sourceTree = "<group>"; };
+		70C6632516CEA86800AA542F /* SWSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSourceViewController.h; sourceTree = "<group>"; };
+		70C6632616CEA86800AA542F /* SWSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSourceViewController.m; sourceTree = "<group>"; };
+		70C6632716CEA86800AA542F /* SWSourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWSourceViewController.xib; sourceTree = "<group>"; };
+		70C6632A16CEABDB00AA542F /* SWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMainViewController.h; sourceTree = "<group>"; };
+		70C6632B16CEABDB00AA542F /* SWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMainViewController.m; sourceTree = "<group>"; };
+		70C6632C16CEABDB00AA542F /* SWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWMainViewController.xib; sourceTree = "<group>"; };
+		70C6632F16CEB3D100AA542F /* SWSourceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWSourceTableViewCell.xib; sourceTree = "<group>"; };
+		70C6633116CEB4BB00AA542F /* f_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_logo.png; sourceTree = "<group>"; };
+		70C6633316CEB6F200AA542F /* SWSourceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSourceTableViewCell.h; sourceTree = "<group>"; };
+		70C6633416CEB6F200AA542F /* SWSourceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSourceTableViewCell.m; sourceTree = "<group>"; };
+		70C6633616CF791B00AA542F /* SWSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSettingsViewController.h; sourceTree = "<group>"; };
+		70C6633716CF791B00AA542F /* SWSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSettingsViewController.m; sourceTree = "<group>"; };
+		70C6633916CF7FAA00AA542F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		70C6633F16CF9A5C00AA542F /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		70C6634116CF9ADA00AA542F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		70C6634216CF9ADA00AA542F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		70C6634316CF9ADA00AA542F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		70C6634716CFA83700AA542F /* t_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_logo.png; sourceTree = "<group>"; };
+		70C6634A16CFA86D00AA542F /* TwitterSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSource.h; sourceTree = "<group>"; };
+		70C6634B16CFA86D00AA542F /* TwitterSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSource.m; sourceTree = "<group>"; };
+		70C6634D16CFC25C00AA542F /* SWSlideshowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSlideshowViewController.h; sourceTree = "<group>"; };
+		70C6634E16CFC25D00AA542F /* SWSlideshowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSlideshowViewController.m; sourceTree = "<group>"; };
+		70C6635016CFC4BB00AA542F /* SWSegmentedControlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWSegmentedControlCell.xib; sourceTree = "<group>"; };
+		70C6635416CFCDDA00AA542F /* SWContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWContentCollectionViewCell.h; sourceTree = "<group>"; };
+		70C6635516CFCDDA00AA542F /* SWContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWContentCollectionViewCell.m; sourceTree = "<group>"; };
+		70C6635716CFCDFB00AA542F /* SWContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		70C6635916CFD2EC00AA542F /* SWFBTaggedContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFBTaggedContent.h; sourceTree = "<group>"; };
+		70C6635A16CFD2EC00AA542F /* SWFBTaggedContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFBTaggedContent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C6634416CF9ADA00AA542F /* Accounts.framework in Frameworks */,
+				70C6634516CF9ADA00AA542F /* AdSupport.framework in Frameworks */,
+				70C6634616CF9ADA00AA542F /* Social.framework in Frameworks */,
+				70C6633A16CF7FAA00AA542F /* FacebookSDK.framework in Frameworks */,
 				70C662E716CEA2CB00AA542F /* UIKit.framework in Frameworks */,
 				70C662E916CEA2CB00AA542F /* Foundation.framework in Frameworks */,
 				70C662EB16CEA2CB00AA542F /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +134,11 @@
 		70C662E516CEA2CB00AA542F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70C6634116CF9ADA00AA542F /* Accounts.framework */,
+				70C6634216CF9ADA00AA542F /* AdSupport.framework */,
+				70C6634316CF9ADA00AA542F /* Social.framework */,
+				70C6633F16CF9A5C00AA542F /* FacebookSDKResources.bundle */,
+				70C6633916CF7FAA00AA542F /* FacebookSDK.framework */,
 				70C662E616CEA2CB00AA542F /* UIKit.framework */,
 				70C662E816CEA2CB00AA542F /* Foundation.framework */,
 				70C662EA16CEA2CB00AA542F /* CoreGraphics.framework */,
@@ -88,15 +149,18 @@
 		70C662EC16CEA2CB00AA542F /* sowal */ = {
 			isa = PBXGroup;
 			children = (
-				70C662F516CEA2CB00AA542F /* SWAppDelegate.h */,
+				70C6633B16CF955900AA542F /* headers */,
 				70C662F616CEA2CB00AA542F /* SWAppDelegate.m */,
-				70C662FE16CEA2CB00AA542F /* SWMasterViewController.h */,
-				70C662FF16CEA2CB00AA542F /* SWMasterViewController.m */,
-				70C6630116CEA2CB00AA542F /* SWDetailViewController.h */,
-				70C6630216CEA2CB00AA542F /* SWDetailViewController.m */,
-				70C6630416CEA2CB00AA542F /* SWMasterViewController.xib */,
-				70C6630716CEA2CB00AA542F /* SWDetailViewController.xib */,
+				70C6632B16CEABDB00AA542F /* SWMainViewController.m */,
+				70C6634E16CFC25D00AA542F /* SWSlideshowViewController.m */,
+				70C6631F16CEA6D300AA542F /* Sources */,
+				70C6631516CEA37800AA542F /* Managers */,
+				70C6633416CEB6F200AA542F /* SWSourceTableViewCell.m */,
+				70C6633716CF791B00AA542F /* SWSettingsViewController.m */,
+				70C6633E16CF965900AA542F /* resources */,
+				70C6633C16CF963E00AA542F /* interface */,
 				70C662ED16CEA2CB00AA542F /* Supporting Files */,
+				70C6633D16CF964C00AA542F /* crap */,
 			);
 			path = sowal;
 			sourceTree = "<group>";
@@ -113,6 +177,94 @@
 				70C662FC16CEA2CB00AA542F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70C6631516CEA37800AA542F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				70C6631716CEA3E700AA542F /* SWSourceManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		70C6631F16CEA6D300AA542F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				70C6632316CEA70100AA542F /* SWContent.m */,
+				70C6635516CFCDDA00AA542F /* SWContentCollectionViewCell.m */,
+				70C6631A16CEA68F00AA542F /* SWSource.m */,
+				70C6634916CFA85700AA542F /* Twitter */,
+				70C6632016CEA6D800AA542F /* Facebook */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		70C6632016CEA6D800AA542F /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				70C6631D16CEA6C400AA542F /* FacebookSource.m */,
+				70C6635A16CFD2EC00AA542F /* SWFBTaggedContent.m */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		70C6633B16CF955900AA542F /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				70C6635916CFD2EC00AA542F /* SWFBTaggedContent.h */,
+				70C6635416CFCDDA00AA542F /* SWContentCollectionViewCell.h */,
+				70C6634D16CFC25C00AA542F /* SWSlideshowViewController.h */,
+				70C6634A16CFA86D00AA542F /* TwitterSource.h */,
+				70C6632216CEA70100AA542F /* SWContent.h */,
+				70C6631916CEA68F00AA542F /* SWSource.h */,
+				70C6632516CEA86800AA542F /* SWSourceViewController.h */,
+				70C6631C16CEA6C400AA542F /* FacebookSource.h */,
+				70C6631616CEA3E700AA542F /* SWSourceManager.h */,
+				70C662F516CEA2CB00AA542F /* SWAppDelegate.h */,
+				70C662FE16CEA2CB00AA542F /* SWMasterViewController.h */,
+				70C6630116CEA2CB00AA542F /* SWDetailViewController.h */,
+				70C6632A16CEABDB00AA542F /* SWMainViewController.h */,
+				70C6633316CEB6F200AA542F /* SWSourceTableViewCell.h */,
+				70C6633616CF791B00AA542F /* SWSettingsViewController.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		70C6633C16CF963E00AA542F /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				70C6632C16CEABDB00AA542F /* SWMainViewController.xib */,
+				70C6635016CFC4BB00AA542F /* SWSegmentedControlCell.xib */,
+				70C6635716CFCDFB00AA542F /* SWContentCollectionViewCell.xib */,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		70C6633D16CF964C00AA542F /* crap */ = {
+			isa = PBXGroup;
+			children = (
+				70C6632F16CEB3D100AA542F /* SWSourceTableViewCell.xib */,
+				70C6632616CEA86800AA542F /* SWSourceViewController.m */,
+				70C6632716CEA86800AA542F /* SWSourceViewController.xib */,
+			);
+			name = crap;
+			sourceTree = "<group>";
+		};
+		70C6633E16CF965900AA542F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				70C6633116CEB4BB00AA542F /* f_logo.png */,
+				70C6634716CFA83700AA542F /* t_logo.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		70C6634916CFA85700AA542F /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				70C6634B16CFA86D00AA542F /* TwitterSource.m */,
+			);
+			name = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +323,14 @@
 				70C662F916CEA2CB00AA542F /* Default.png in Resources */,
 				70C662FB16CEA2CB00AA542F /* Default@2x.png in Resources */,
 				70C662FD16CEA2CB00AA542F /* Default-568h@2x.png in Resources */,
-				70C6630616CEA2CB00AA542F /* SWMasterViewController.xib in Resources */,
-				70C6630916CEA2CB00AA542F /* SWDetailViewController.xib in Resources */,
+				70C6632916CEA86800AA542F /* SWSourceViewController.xib in Resources */,
+				70C6632E16CEABDC00AA542F /* SWMainViewController.xib in Resources */,
+				70C6633016CEB3D100AA542F /* SWSourceTableViewCell.xib in Resources */,
+				70C6633216CEB4BB00AA542F /* f_logo.png in Resources */,
+				70C6634016CF9A5C00AA542F /* FacebookSDKResources.bundle in Resources */,
+				70C6634816CFA83700AA542F /* t_logo.png in Resources */,
+				70C6635116CFC4BB00AA542F /* SWSegmentedControlCell.xib in Resources */,
+				70C6635816CFCDFB00AA542F /* SWContentCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +343,18 @@
 			files = (
 				70C662F316CEA2CB00AA542F /* main.m in Sources */,
 				70C662F716CEA2CB00AA542F /* SWAppDelegate.m in Sources */,
-				70C6630016CEA2CB00AA542F /* SWMasterViewController.m in Sources */,
-				70C6630316CEA2CB00AA542F /* SWDetailViewController.m in Sources */,
+				70C6631816CEA3E700AA542F /* SWSourceManager.m in Sources */,
+				70C6631B16CEA69000AA542F /* SWSource.m in Sources */,
+				70C6631E16CEA6C400AA542F /* FacebookSource.m in Sources */,
+				70C6632416CEA70100AA542F /* SWContent.m in Sources */,
+				70C6632816CEA86800AA542F /* SWSourceViewController.m in Sources */,
+				70C6632D16CEABDC00AA542F /* SWMainViewController.m in Sources */,
+				70C6633516CEB6F200AA542F /* SWSourceTableViewCell.m in Sources */,
+				70C6633816CF791C00AA542F /* SWSettingsViewController.m in Sources */,
+				70C6634C16CFA86D00AA542F /* TwitterSource.m in Sources */,
+				70C6634F16CFC25D00AA542F /* SWSlideshowViewController.m in Sources */,
+				70C6635616CFCDDA00AA542F /* SWContentCollectionViewCell.m in Sources */,
+				70C6635B16CFD2EC00AA542F /* SWFBTaggedContent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,22 +367,6 @@
 				70C662F016CEA2CB00AA542F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		70C6630416CEA2CB00AA542F /* SWMasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70C6630516CEA2CB00AA542F /* en */,
-			);
-			name = SWMasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		70C6630716CEA2CB00AA542F /* SWDetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70C6630816CEA2CB00AA542F /* en */,
-			);
-			name = SWDetailViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,9 +433,14 @@
 		70C6630D16CEA2CB00AA542F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sowal/sowal-Prefix.pch";
 				INFOPLIST_FILE = "sowal/sowal-Info.plist";
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,9 +449,14 @@
 		70C6630E16CEA2CB00AA542F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sowal/sowal-Prefix.pch";
 				INFOPLIST_FILE = "sowal/sowal-Info.plist";
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
